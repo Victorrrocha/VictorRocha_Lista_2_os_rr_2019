@@ -1,10 +1,12 @@
+// Código de Victor e Francisco, com ajuda da Ewelly //
+
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
 
 #define NUM_THREADS 100
 
-// tentativa de implementação com duas funções estava dando Segmentation fault
+// tentativa de implementação com duas funções estava dando Segmentation fault por algum motivo
 /*int eh_primo(int n){
 	int i;
 	if(n == 1 || n == 0)
